@@ -1,0 +1,37 @@
+
+
+rtfinder - gene finding program for stop codon readthrough
+
+
+Overview
+========
+
+  rtfinder is a kind of gene finder, which is designed solely for
+studies on stop codon readthrough.  Given nucleotide sequence(s) as
+input (e.g. genome or cDNA), it enumerates all possible ORFs that
+have an inframe stop codon.  User can impose several conditions on
+the output, such as minimal length of the ORFs.
+  rttrain is a yet-experimental program for scoring the ORFs based
+on the codon usage of the source organism. It constructs a first
+order Markov model, and its output can be supplied to rtfinder.
+
+
+Installation
+============
+
+  The simplest way to install this package is as follows. For more
+details, see 'INSTALL'.
+
+  1. ./configure
+
+  2. make
+
+  3. make install
+
+
+Usage
+=====
+
+  Type 'rtfinder' or 'rttrain' in command line.  Then, available
+options are printed.
+
